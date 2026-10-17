@@ -1,0 +1,27 @@
+{
+  "name": "hand-icons",
+  "version": "0.1.0",
+  "description": "29 hand-drawn marker icons as an SVG sprite, with line/fill variants, rotated siblings, and a typed React component.",
+  "license": "(MIT AND CC-BY-4.0)",
+  "author": "Kevin Patton / Studio Orpiment",
+  "repository": { "type": "git", "url": "git+https://github.com/studio0rpiment/hand-icons.git" },
+  "homepage": "https://studio0rpiment.github.io/hand-icons/",
+  "keywords": ["icons", "svg", "sprite", "hand-drawn", "react", "typescript"],
+  "files": ["dist", "src/react", "svg", "README.md", "LICENSE"],
+  "type": "module",
+  "exports": {
+    ".": "./src/react/index.ts",
+    "./react": "./src/react/index.ts",
+    "./sprite": "./dist/hand-icons.svg",
+    "./sprite.svg": "./dist/hand-icons.svg",
+    "./hand-icons.css": "./dist/hand-icons.css",
+    "./manifest": "./dist/hand-icons.json",
+    "./svg/*": "./svg/*"
+  },
+  "sideEffects": ["*.css"],
+  "peerDependencies": { "react": ">=17" },
+  "peerDependenciesMeta": { "react": { "optional": true } },
+  "scripts": {
+    "build": "python3 tools/build.py"
+  }
+}

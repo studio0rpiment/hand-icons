@@ -1,0 +1,869 @@
+{
+ "viewBox": 1024,
+ "stroke": 6,
+ "kinds": [
+  "lines",
+  "arrows",
+  "swirls",
+  "triangles",
+  "stars",
+  "blobs"
+ ],
+ "icons": [
+  {
+   "number": 11,
+   "name": "line-solid",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-line-solid-line",
+     "fill": "hi-line-solid-fill"
+    },
+    "r90": {
+     "line": "hi-line-solid-line-r90",
+     "fill": "hi-line-solid-fill-r90"
+    },
+    "r45": {
+     "line": "hi-line-solid-line-r45",
+     "fill": "hi-line-solid-fill-r45"
+    },
+    "r135": {
+     "line": "hi-line-solid-line-r135",
+     "fill": "hi-line-solid-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 13,
+   "name": "line-dashed",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-line-dashed-line",
+     "fill": "hi-line-dashed-fill"
+    },
+    "r90": {
+     "line": "hi-line-dashed-line-r90",
+     "fill": "hi-line-dashed-fill-r90"
+    },
+    "r45": {
+     "line": "hi-line-dashed-line-r45",
+     "fill": "hi-line-dashed-fill-r45"
+    },
+    "r135": {
+     "line": "hi-line-dashed-line-r135",
+     "fill": "hi-line-dashed-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 5,
+   "name": "slash",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-slash-line",
+     "fill": "hi-slash-fill"
+    },
+    "r90": {
+     "line": "hi-slash-line-r90",
+     "fill": "hi-slash-fill-r90"
+    },
+    "r45": {
+     "line": "hi-slash-line-r45",
+     "fill": "hi-slash-fill-r45"
+    },
+    "r135": {
+     "line": "hi-slash-line-r135",
+     "fill": "hi-slash-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 6,
+   "name": "dash",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-dash-line",
+     "fill": "hi-dash-fill"
+    },
+    "r90": {
+     "line": "hi-dash-line-r90",
+     "fill": "hi-dash-fill-r90"
+    },
+    "r45": {
+     "line": "hi-dash-line-r45",
+     "fill": "hi-dash-fill-r45"
+    },
+    "r135": {
+     "line": "hi-dash-line-r135",
+     "fill": "hi-dash-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 22,
+   "name": "equals",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-equals-line",
+     "fill": "hi-equals-fill"
+    },
+    "r90": {
+     "line": "hi-equals-line-r90",
+     "fill": "hi-equals-fill-r90"
+    },
+    "r45": {
+     "line": "hi-equals-line-r45",
+     "fill": "hi-equals-fill-r45"
+    },
+    "r135": {
+     "line": "hi-equals-line-r135",
+     "fill": "hi-equals-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 26,
+   "name": "horizon",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-horizon-line",
+     "fill": "hi-horizon-fill"
+    },
+    "r90": {
+     "line": "hi-horizon-line-r90",
+     "fill": "hi-horizon-fill-r90"
+    },
+    "r180": {
+     "line": "hi-horizon-line-r180",
+     "fill": "hi-horizon-fill-r180"
+    },
+    "r270": {
+     "line": "hi-horizon-line-r270",
+     "fill": "hi-horizon-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 4,
+   "name": "cross",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-cross-line",
+     "fill": "hi-cross-fill"
+    }
+   }
+  },
+  {
+   "number": 24,
+   "name": "strokes",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-strokes-line",
+     "fill": "hi-strokes-fill"
+    },
+    "r90": {
+     "line": "hi-strokes-line-r90",
+     "fill": "hi-strokes-fill-r90"
+    },
+    "r45": {
+     "line": "hi-strokes-line-r45",
+     "fill": "hi-strokes-fill-r45"
+    },
+    "r135": {
+     "line": "hi-strokes-line-r135",
+     "fill": "hi-strokes-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 15,
+   "name": "hatch-fine",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-hatch-fine-line",
+     "fill": "hi-hatch-fine-fill"
+    },
+    "r90": {
+     "line": "hi-hatch-fine-line-r90",
+     "fill": "hi-hatch-fine-fill-r90"
+    },
+    "r45": {
+     "line": "hi-hatch-fine-line-r45",
+     "fill": "hi-hatch-fine-fill-r45"
+    },
+    "r135": {
+     "line": "hi-hatch-fine-line-r135",
+     "fill": "hi-hatch-fine-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 16,
+   "name": "hatch-heavy",
+   "kind": "lines",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-hatch-heavy-line",
+     "fill": "hi-hatch-heavy-fill"
+    },
+    "r90": {
+     "line": "hi-hatch-heavy-line-r90",
+     "fill": "hi-hatch-heavy-fill-r90"
+    },
+    "r45": {
+     "line": "hi-hatch-heavy-line-r45",
+     "fill": "hi-hatch-heavy-fill-r45"
+    },
+    "r135": {
+     "line": "hi-hatch-heavy-line-r135",
+     "fill": "hi-hatch-heavy-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 1,
+   "name": "arrow-bar",
+   "kind": "arrows",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-arrow-bar-line",
+     "fill": "hi-arrow-bar-fill"
+    },
+    "r90": {
+     "line": "hi-arrow-bar-line-r90",
+     "fill": "hi-arrow-bar-fill-r90"
+    },
+    "r180": {
+     "line": "hi-arrow-bar-line-r180",
+     "fill": "hi-arrow-bar-fill-r180"
+    },
+    "r270": {
+     "line": "hi-arrow-bar-line-r270",
+     "fill": "hi-arrow-bar-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 7,
+   "name": "bolt",
+   "kind": "arrows",
+   "solid": true,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-bolt-line",
+     "fill": "hi-bolt-fill"
+    },
+    "r90": {
+     "line": "hi-bolt-line-r90",
+     "fill": "hi-bolt-fill-r90"
+    },
+    "r180": {
+     "line": "hi-bolt-line-r180",
+     "fill": "hi-bolt-fill-r180"
+    },
+    "r270": {
+     "line": "hi-bolt-line-r270",
+     "fill": "hi-bolt-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 21,
+   "name": "bolt-small",
+   "kind": "arrows",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-bolt-small-line",
+     "fill": "hi-bolt-small-fill"
+    },
+    "r90": {
+     "line": "hi-bolt-small-line-r90",
+     "fill": "hi-bolt-small-fill-r90"
+    },
+    "r180": {
+     "line": "hi-bolt-small-line-r180",
+     "fill": "hi-bolt-small-fill-r180"
+    },
+    "r270": {
+     "line": "hi-bolt-small-line-r270",
+     "fill": "hi-bolt-small-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 25,
+   "name": "spiral-tight",
+   "kind": "swirls",
+   "solid": false,
+   "directions": [
+    "base",
+    "mh",
+    "mv",
+    "mhv"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-spiral-tight-line",
+     "fill": "hi-spiral-tight-fill"
+    },
+    "mh": {
+     "line": "hi-spiral-tight-line-mh",
+     "fill": "hi-spiral-tight-fill-mh"
+    },
+    "mv": {
+     "line": "hi-spiral-tight-line-mv",
+     "fill": "hi-spiral-tight-fill-mv"
+    },
+    "mhv": {
+     "line": "hi-spiral-tight-line-mhv",
+     "fill": "hi-spiral-tight-fill-mhv"
+    }
+   }
+  },
+  {
+   "number": 8,
+   "name": "spiral-loose",
+   "kind": "swirls",
+   "solid": false,
+   "directions": [
+    "base",
+    "mh",
+    "mv",
+    "mhv"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-spiral-loose-line",
+     "fill": "hi-spiral-loose-fill"
+    },
+    "mh": {
+     "line": "hi-spiral-loose-line-mh",
+     "fill": "hi-spiral-loose-fill-mh"
+    },
+    "mv": {
+     "line": "hi-spiral-loose-line-mv",
+     "fill": "hi-spiral-loose-fill-mv"
+    },
+    "mhv": {
+     "line": "hi-spiral-loose-line-mhv",
+     "fill": "hi-spiral-loose-fill-mhv"
+    }
+   }
+  },
+  {
+   "number": 29,
+   "name": "c-spiral",
+   "kind": "swirls",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-c-spiral-line",
+     "fill": "hi-c-spiral-fill"
+    },
+    "r90": {
+     "line": "hi-c-spiral-line-r90",
+     "fill": "hi-c-spiral-fill-r90"
+    },
+    "r180": {
+     "line": "hi-c-spiral-line-r180",
+     "fill": "hi-c-spiral-fill-r180"
+    },
+    "r270": {
+     "line": "hi-c-spiral-line-r270",
+     "fill": "hi-c-spiral-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 28,
+   "name": "ear",
+   "kind": "swirls",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-ear-line",
+     "fill": "hi-ear-fill"
+    },
+    "r90": {
+     "line": "hi-ear-line-r90",
+     "fill": "hi-ear-fill-r90"
+    },
+    "r180": {
+     "line": "hi-ear-line-r180",
+     "fill": "hi-ear-fill-r180"
+    },
+    "r270": {
+     "line": "hi-ear-line-r270",
+     "fill": "hi-ear-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 10,
+   "name": "triangle-a",
+   "kind": "triangles",
+   "solid": true,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-triangle-a-line",
+     "fill": "hi-triangle-a-fill"
+    },
+    "r90": {
+     "line": "hi-triangle-a-line-r90",
+     "fill": "hi-triangle-a-fill-r90"
+    },
+    "r180": {
+     "line": "hi-triangle-a-line-r180",
+     "fill": "hi-triangle-a-fill-r180"
+    },
+    "r270": {
+     "line": "hi-triangle-a-line-r270",
+     "fill": "hi-triangle-a-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 12,
+   "name": "triangle-b",
+   "kind": "triangles",
+   "solid": true,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-triangle-b-line",
+     "fill": "hi-triangle-b-fill"
+    },
+    "r90": {
+     "line": "hi-triangle-b-line-r90",
+     "fill": "hi-triangle-b-fill-r90"
+    },
+    "r180": {
+     "line": "hi-triangle-b-line-r180",
+     "fill": "hi-triangle-b-fill-r180"
+    },
+    "r270": {
+     "line": "hi-triangle-b-line-r270",
+     "fill": "hi-triangle-b-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 9,
+   "name": "triangle-y",
+   "kind": "triangles",
+   "solid": true,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-triangle-y-line",
+     "fill": "hi-triangle-y-fill"
+    },
+    "r90": {
+     "line": "hi-triangle-y-line-r90",
+     "fill": "hi-triangle-y-fill-r90"
+    },
+    "r180": {
+     "line": "hi-triangle-y-line-r180",
+     "fill": "hi-triangle-y-fill-r180"
+    },
+    "r270": {
+     "line": "hi-triangle-y-line-r270",
+     "fill": "hi-triangle-y-fill-r270"
+    }
+   }
+  },
+  {
+   "number": 2,
+   "name": "star-scribble",
+   "kind": "stars",
+   "solid": true,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-star-scribble-line",
+     "fill": "hi-star-scribble-fill"
+    },
+    "r90": {
+     "line": "hi-star-scribble-line-r90",
+     "fill": "hi-star-scribble-fill-r90"
+    },
+    "r45": {
+     "line": "hi-star-scribble-line-r45",
+     "fill": "hi-star-scribble-fill-r45"
+    },
+    "r135": {
+     "line": "hi-star-scribble-line-r135",
+     "fill": "hi-star-scribble-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 17,
+   "name": "burst-a",
+   "kind": "stars",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-burst-a-line",
+     "fill": "hi-burst-a-fill"
+    },
+    "r90": {
+     "line": "hi-burst-a-line-r90",
+     "fill": "hi-burst-a-fill-r90"
+    },
+    "r45": {
+     "line": "hi-burst-a-line-r45",
+     "fill": "hi-burst-a-fill-r45"
+    },
+    "r135": {
+     "line": "hi-burst-a-line-r135",
+     "fill": "hi-burst-a-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 27,
+   "name": "burst-b",
+   "kind": "stars",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-burst-b-line",
+     "fill": "hi-burst-b-fill"
+    },
+    "r90": {
+     "line": "hi-burst-b-line-r90",
+     "fill": "hi-burst-b-fill-r90"
+    },
+    "r45": {
+     "line": "hi-burst-b-line-r45",
+     "fill": "hi-burst-b-fill-r45"
+    },
+    "r135": {
+     "line": "hi-burst-b-line-r135",
+     "fill": "hi-burst-b-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 23,
+   "name": "scatter",
+   "kind": "stars",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-scatter-line",
+     "fill": "hi-scatter-fill"
+    },
+    "r90": {
+     "line": "hi-scatter-line-r90",
+     "fill": "hi-scatter-fill-r90"
+    },
+    "r45": {
+     "line": "hi-scatter-line-r45",
+     "fill": "hi-scatter-fill-r45"
+    },
+    "r135": {
+     "line": "hi-scatter-line-r135",
+     "fill": "hi-scatter-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 20,
+   "name": "big-x",
+   "kind": "stars",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-big-x-line",
+     "fill": "hi-big-x-fill"
+    },
+    "r90": {
+     "line": "hi-big-x-line-r90",
+     "fill": "hi-big-x-fill-r90"
+    },
+    "r45": {
+     "line": "hi-big-x-line-r45",
+     "fill": "hi-big-x-fill-r45"
+    },
+    "r135": {
+     "line": "hi-big-x-line-r135",
+     "fill": "hi-big-x-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 19,
+   "name": "hourglass-x",
+   "kind": "stars",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-hourglass-x-line",
+     "fill": "hi-hourglass-x-fill"
+    },
+    "r90": {
+     "line": "hi-hourglass-x-line-r90",
+     "fill": "hi-hourglass-x-fill-r90"
+    },
+    "r45": {
+     "line": "hi-hourglass-x-line-r45",
+     "fill": "hi-hourglass-x-fill-r45"
+    },
+    "r135": {
+     "line": "hi-hourglass-x-line-r135",
+     "fill": "hi-hourglass-x-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 18,
+   "name": "square-x",
+   "kind": "stars",
+   "solid": false,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-square-x-line",
+     "fill": "hi-square-x-fill"
+    },
+    "r90": {
+     "line": "hi-square-x-line-r90",
+     "fill": "hi-square-x-fill-r90"
+    },
+    "r45": {
+     "line": "hi-square-x-line-r45",
+     "fill": "hi-square-x-fill-r45"
+    },
+    "r135": {
+     "line": "hi-square-x-line-r135",
+     "fill": "hi-square-x-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 3,
+   "name": "blob",
+   "kind": "blobs",
+   "solid": true,
+   "directions": [
+    "base",
+    "r90",
+    "r45",
+    "r135"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-blob-line",
+     "fill": "hi-blob-fill"
+    },
+    "r90": {
+     "line": "hi-blob-line-r90",
+     "fill": "hi-blob-fill-r90"
+    },
+    "r45": {
+     "line": "hi-blob-line-r45",
+     "fill": "hi-blob-fill-r45"
+    },
+    "r135": {
+     "line": "hi-blob-line-r135",
+     "fill": "hi-blob-fill-r135"
+    }
+   }
+  },
+  {
+   "number": 14,
+   "name": "dumbbell",
+   "kind": "blobs",
+   "solid": true,
+   "directions": [
+    "base",
+    "r90",
+    "r180",
+    "r270"
+   ],
+   "symbols": {
+    "base": {
+     "line": "hi-dumbbell-line",
+     "fill": "hi-dumbbell-fill"
+    },
+    "r90": {
+     "line": "hi-dumbbell-line-r90",
+     "fill": "hi-dumbbell-fill-r90"
+    },
+    "r180": {
+     "line": "hi-dumbbell-line-r180",
+     "fill": "hi-dumbbell-fill-r180"
+    },
+    "r270": {
+     "line": "hi-dumbbell-line-r270",
+     "fill": "hi-dumbbell-fill-r270"
+    }
+   }
+  }
+ ]
+}
